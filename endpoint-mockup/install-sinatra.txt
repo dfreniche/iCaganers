@@ -1,0 +1,6 @@
+Para instalar Sinatra, en un Mac, abrir una Terminal y escribir
+sudo gem install sinatra
+sudo gem install json
+
+Para ejecutar el script de Sinatra:
+ruby -rubygems mi_script.rb 

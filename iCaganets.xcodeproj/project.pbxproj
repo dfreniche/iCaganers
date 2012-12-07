@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99312A8E166F6CA20015C1A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312A8D166F6CA20015C1A2 /* UIKit.framework */; };
+		99312A90166F6CA20015C1A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312A8F166F6CA20015C1A2 /* Foundation.framework */; };
+		99312A92166F6CA20015C1A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312A91166F6CA20015C1A2 /* CoreGraphics.framework */; };
+		99312A98166F6CA20015C1A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99312A96166F6CA20015C1A2 /* InfoPlist.strings */; };
+		99312A9A166F6CA20015C1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312A99166F6CA20015C1A2 /* main.m */; };
+		99312A9E166F6CA20015C1A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312A9D166F6CA20015C1A2 /* AppDelegate.m */; };
+		99312AA0166F6CA20015C1A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99312A9F166F6CA20015C1A2 /* Default.png */; };
+		99312AA2166F6CA20015C1A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99312AA1166F6CA20015C1A2 /* Default@2x.png */; };
+		99312AA4166F6CA20015C1A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99312AA3166F6CA20015C1A2 /* Default-568h@2x.png */; };
+		99312AAC166F6CA20015C1A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312AAB166F6CA20015C1A2 /* SenTestingKit.framework */; };
+		99312AAD166F6CA20015C1A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312A8D166F6CA20015C1A2 /* UIKit.framework */; };
+		99312AAE166F6CA20015C1A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99312A8F166F6CA20015C1A2 /* Foundation.framework */; };
+		99312AB6166F6CA20015C1A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99312AB4166F6CA20015C1A2 /* InfoPlist.strings */; };
+		99312AB9166F6CA20015C1A2 /* iCaganetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312AB8166F6CA20015C1A2 /* iCaganetsTests.m */; };
+		99312AC4166F6D090015C1A2 /* ShopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312AC3166F6D090015C1A2 /* ShopItem.m */; };
+		99312AC5166F6D090015C1A2 /* ShopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312AC3166F6D090015C1A2 /* ShopItem.m */; };
+		99312AC9166F6EC40015C1A2 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312AC8166F6EC40015C1A2 /* ItemList.m */; };
+		99312ACA166F6EC40015C1A2 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 99312AC8166F6EC40015C1A2 /* ItemList.m */; };
+		99312ACC166F6ED50015C1A2 /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99312ACB166F6ED50015C1A2 /* Storyboard-iPhone.storyboard */; };
+		993DF83916720B5F005DE88B /* icaganet-server.rb in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83116720B5F005DE88B /* icaganet-server.rb */; };
+		993DF83A16720B5F005DE88B /* install-sinatra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83216720B5F005DE88B /* install-sinatra.txt */; };
+		993DF83B16720B5F005DE88B /* code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83416720B5F005DE88B /* code.txt */; };
+		993DF83C16720B5F005DE88B /* 210px-Séville_-_Giralda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83616720B5F005DE88B /* 210px-Séville_-_Giralda.jpg */; };
+		993DF83D16720B5F005DE88B /* The_Giralda_Seville2C_Spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83716720B5F005DE88B /* The_Giralda_Seville2C_Spain.jpg */; };
+		993DF83E16720B5F005DE88B /* start-sinatra.sh in Resources */ = {isa = PBXBuildFile; fileRef = 993DF83816720B5F005DE88B /* start-sinatra.sh */; };
+		996A7CAB1670C640004ACE15 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996A7CAA1670C63F004ACE15 /* SuccessViewController.m */; };
+		999CB5AB1672605500765834 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 999CB5AA1672605500765834 /* README.TXT */; };
+		999E79DB167131EE003F6E8C /* 119-piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 999E79DA167131EE003F6E8C /* 119-piggy-bank.png */; };
+		999E79DE16713225003F6E8C /* 192-credit-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 999E79DD16713225003F6E8C /* 192-credit-card.png */; };
+		99ADF05216709F0C006174C8 /* ItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FC8A761670852800F2C046 /* ItemListViewController.m */; };
+		99ADF05316709F12006174C8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FC8A731670851A00F2C046 /* AboutViewController.m */; };
+		99ADF05616709F81006174C8 /* PoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ADF05516709F81006174C8 /* PoiCell.m */; };
+		99E8A24B1670A10500314F8A /* VersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FC8A701670850900F2C046 /* VersionUtil.m */; };
+		99E8A2551670A23E00314F8A /* images-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A24C1670A23E00314F8A /* images-1.png */; };
+		99E8A2561670A23E00314F8A /* images-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A24D1670A23E00314F8A /* images-2.png */; };
+		99E8A2571670A23E00314F8A /* images-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A24E1670A23E00314F8A /* images-3.png */; };
+		99E8A2581670A23E00314F8A /* images-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A24F1670A23E00314F8A /* images-4.png */; };
+		99E8A2591670A23E00314F8A /* images-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A2501670A23E00314F8A /* images-5.png */; };
+		99E8A25A1670A23E00314F8A /* images-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A2511670A23E00314F8A /* images-6.png */; };
+		99E8A25B1670A23E00314F8A /* images-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A2521670A23E00314F8A /* images-7.png */; };
+		99E8A25C1670A23E00314F8A /* images-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A2531670A23E00314F8A /* images-8.png */; };
+		99E8A25D1670A23E00314F8A /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E8A2541670A23E00314F8A /* images.png */; };
+		99E8A2701670A98900314F8A /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E8A26F1670A98800314F8A /* libPayPalMPL.a */; };
+		99E8A2771670AA3600314F8A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E8A2761670AA3600314F8A /* Security.framework */; };
+		99E8A27B1670AA8F00314F8A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E8A27A1670AA8F00314F8A /* libz.dylib */; };
+		99E8A27F1670AB2D00314F8A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E8A27E1670AB2D00314F8A /* libxml2.dylib */; };
+		99FC8A6D167084B300F2C046 /* CaganetData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FC8A6C167084B300F2C046 /* CaganetData.plist */; };
+		99FC8A7A1670853B00F2C046 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FC8A791670853B00F2C046 /* ItemDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99312AAF166F6CA20015C1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99312A80166F6CA20015C1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99312A88166F6CA20015C1A2;
+			remoteInfo = iCaganets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99312A89166F6CA20015C1A2 /* iCaganets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCaganets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99312A8D166F6CA20015C1A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99312A8F166F6CA20015C1A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99312A91166F6CA20015C1A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99312A95166F6CA20015C1A2 /* iCaganets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCaganets-Info.plist"; sourceTree = "<group>"; };
+		99312A97166F6CA20015C1A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99312A99166F6CA20015C1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99312A9B166F6CA20015C1A2 /* iCaganets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCaganets-Prefix.pch"; sourceTree = "<group>"; };
+		99312A9C166F6CA20015C1A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99312A9D166F6CA20015C1A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99312A9F166F6CA20015C1A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99312AA1166F6CA20015C1A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99312AA3166F6CA20015C1A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		99312AAA166F6CA20015C1A2 /* iCaganetsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCaganetsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99312AAB166F6CA20015C1A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		99312AB3166F6CA20015C1A2 /* iCaganetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCaganetsTests-Info.plist"; sourceTree = "<group>"; };
+		99312AB5166F6CA20015C1A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99312AB7166F6CA20015C1A2 /* iCaganetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCaganetsTests.h; sourceTree = "<group>"; };
+		99312AB8166F6CA20015C1A2 /* iCaganetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCaganetsTests.m; sourceTree = "<group>"; };
+		99312AC2166F6D090015C1A2 /* ShopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItem.h; sourceTree = "<group>"; };
+		99312AC3166F6D090015C1A2 /* ShopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItem.m; sourceTree = "<group>"; };
+		99312AC7166F6EC40015C1A2 /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
+		99312AC8166F6EC40015C1A2 /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
+		99312ACB166F6ED50015C1A2 /* Storyboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPhone.storyboard"; sourceTree = "<group>"; };
+		993DF83116720B5F005DE88B /* icaganet-server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "icaganet-server.rb"; sourceTree = "<group>"; };
+		993DF83216720B5F005DE88B /* install-sinatra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "install-sinatra.txt"; sourceTree = "<group>"; };
+		993DF83416720B5F005DE88B /* code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = code.txt; sourceTree = "<group>"; };
+		993DF83616720B5F005DE88B /* 210px-Séville_-_Giralda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "210px-Séville_-_Giralda.jpg"; sourceTree = "<group>"; };
+		993DF83716720B5F005DE88B /* The_Giralda_Seville2C_Spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The_Giralda_Seville2C_Spain.jpg; sourceTree = "<group>"; };
+		993DF83816720B5F005DE88B /* start-sinatra.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "start-sinatra.sh"; sourceTree = "<group>"; };
+		996A7CA91670C63F004ACE15 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		996A7CAA1670C63F004ACE15 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		999CB5AA1672605500765834 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		999E79DA167131EE003F6E8C /* 119-piggy-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "119-piggy-bank.png"; sourceTree = "<group>"; };
+		999E79DD16713225003F6E8C /* 192-credit-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "192-credit-card.png"; sourceTree = "<group>"; };
+		99ADF05416709F81006174C8 /* PoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoiCell.h; path = ../PoiCell.h; sourceTree = "<group>"; };
+		99ADF05516709F81006174C8 /* PoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoiCell.m; path = ../PoiCell.m; sourceTree = "<group>"; };
+		99E8A24C1670A23E00314F8A /* images-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-1.png"; path = "../images-1.png"; sourceTree = "<group>"; };
+		99E8A24D1670A23E00314F8A /* images-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-2.png"; path = "../images-2.png"; sourceTree = "<group>"; };
+		99E8A24E1670A23E00314F8A /* images-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-3.png"; path = "../images-3.png"; sourceTree = "<group>"; };
+		99E8A24F1670A23E00314F8A /* images-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-4.png"; path = "../images-4.png"; sourceTree = "<group>"; };
+		99E8A2501670A23E00314F8A /* images-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-5.png"; path = "../images-5.png"; sourceTree = "<group>"; };
+		99E8A2511670A23E00314F8A /* images-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-6.png"; path = "../images-6.png"; sourceTree = "<group>"; };
+		99E8A2521670A23E00314F8A /* images-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-7.png"; path = "../images-7.png"; sourceTree = "<group>"; };
+		99E8A2531670A23E00314F8A /* images-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images-8.png"; path = "../images-8.png"; sourceTree = "<group>"; };
+		99E8A2541670A23E00314F8A /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../images.png; sourceTree = "<group>"; };
+		99E8A2601670A78100314F8A /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		99E8A2611670A78100314F8A /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		99E8A2621670A78100314F8A /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		99E8A2631670A78100314F8A /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		99E8A2641670A78100314F8A /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		99E8A2651670A78100314F8A /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		99E8A2661670A78100314F8A /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		99E8A2671670A78200314F8A /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		99E8A2681670A78200314F8A /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		99E8A2691670A78200314F8A /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		99E8A26F1670A98800314F8A /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPayPalMPL.a; path = "../../Libs/PayPalMPL_1-6-0-iPhone_DevelopersPackage/Library/libPayPalMPL.a"; sourceTree = "<group>"; };
+		99E8A2761670AA3600314F8A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99E8A27A1670AA8F00314F8A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		99E8A27E1670AB2D00314F8A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		99FC8A6C167084B300F2C046 /* CaganetData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CaganetData.plist; sourceTree = "<group>"; };
+		99FC8A6F1670850900F2C046 /* VersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionUtil.h; sourceTree = "<group>"; };
+		99FC8A701670850900F2C046 /* VersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionUtil.m; sourceTree = "<group>"; };
+		99FC8A721670851A00F2C046 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		99FC8A731670851A00F2C046 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		99FC8A751670852800F2C046 /* ItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListViewController.h; sourceTree = "<group>"; };
+		99FC8A761670852800F2C046 /* ItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListViewController.m; sourceTree = "<group>"; };
+		99FC8A781670853B00F2C046 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		99FC8A791670853B00F2C046 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99312A86166F6CA20015C1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E8A27F1670AB2D00314F8A /* libxml2.dylib in Frameworks */,
+				99E8A27B1670AA8F00314F8A /* libz.dylib in Frameworks */,
+				99E8A2771670AA3600314F8A /* Security.framework in Frameworks */,
+				99E8A2701670A98900314F8A /* libPayPalMPL.a in Frameworks */,
+				99312A8E166F6CA20015C1A2 /* UIKit.framework in Frameworks */,
+				99312A90166F6CA20015C1A2 /* Foundation.framework in Frameworks */,
+				99312A92166F6CA20015C1A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99312AA6166F6CA20015C1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99312AAC166F6CA20015C1A2 /* SenTestingKit.framework in Frameworks */,
+				99312AAD166F6CA20015C1A2 /* UIKit.framework in Frameworks */,
+				99312AAE166F6CA20015C1A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99312A7E166F6CA20015C1A2 = {
+			isa = PBXGroup;
+			children = (
+				999CB5AA1672605500765834 /* README.TXT */,
+				993DF83016720B5F005DE88B /* endpoint-mockup */,
+				99312A93166F6CA20015C1A2 /* iCaganets */,
+				99312AB1166F6CA20015C1A2 /* iCaganetsTests */,
+				99312A8C166F6CA20015C1A2 /* Frameworks */,
+				99312A8A166F6CA20015C1A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99312A8A166F6CA20015C1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99312A89166F6CA20015C1A2 /* iCaganets.app */,
+				99312AAA166F6CA20015C1A2 /* iCaganetsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99312A8C166F6CA20015C1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E8A27E1670AB2D00314F8A /* libxml2.dylib */,
+				99E8A27A1670AA8F00314F8A /* libz.dylib */,
+				99E8A2761670AA3600314F8A /* Security.framework */,
+				99312A8D166F6CA20015C1A2 /* UIKit.framework */,
+				99312A8F166F6CA20015C1A2 /* Foundation.framework */,
+				99312A91166F6CA20015C1A2 /* CoreGraphics.framework */,
+				99312AAB166F6CA20015C1A2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99312A93166F6CA20015C1A2 /* iCaganets */ = {
+			isa = PBXGroup;
+			children = (
+				99E8A26B1670A78E00314F8A /* PayPal */,
+				99312A9C166F6CA20015C1A2 /* AppDelegate.h */,
+				99312A9D166F6CA20015C1A2 /* AppDelegate.m */,
+				99ADF05116709E70006174C8 /* Resources */,
+				99ADF05016709E5C006174C8 /* Util */,
+				99312AC6166F6EB50015C1A2 /* Model */,
+				99312ACD166F6EDD0015C1A2 /* View */,
+				99FC8A7B1670857D00F2C046 /* Controller */,
+				99312A94166F6CA20015C1A2 /* Supporting Files */,
+			);
+			path = iCaganets;
+			sourceTree = "<group>";
+		};
+		99312A94166F6CA20015C1A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99312A95166F6CA20015C1A2 /* iCaganets-Info.plist */,
+				99312A96166F6CA20015C1A2 /* InfoPlist.strings */,
+				99312A99166F6CA20015C1A2 /* main.m */,
+				99312A9B166F6CA20015C1A2 /* iCaganets-Prefix.pch */,
+				99312A9F166F6CA20015C1A2 /* Default.png */,
+				99312AA1166F6CA20015C1A2 /* Default@2x.png */,
+				99312AA3166F6CA20015C1A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99312AB1166F6CA20015C1A2 /* iCaganetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99312AB7166F6CA20015C1A2 /* iCaganetsTests.h */,
+				99312AB8166F6CA20015C1A2 /* iCaganetsTests.m */,
+				99312AB2166F6CA20015C1A2 /* Supporting Files */,
+			);
+			path = iCaganetsTests;
+			sourceTree = "<group>";
+		};
+		99312AB2166F6CA20015C1A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99312AB3166F6CA20015C1A2 /* iCaganetsTests-Info.plist */,
+				99312AB4166F6CA20015C1A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99312AC6166F6EB50015C1A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99312AC7166F6EC40015C1A2 /* ItemList.h */,
+				99312AC8166F6EC40015C1A2 /* ItemList.m */,
+				99312AC2166F6D090015C1A2 /* ShopItem.h */,
+				99312AC3166F6D090015C1A2 /* ShopItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		99312ACD166F6EDD0015C1A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99ADF05416709F81006174C8 /* PoiCell.h */,
+				99ADF05516709F81006174C8 /* PoiCell.m */,
+				99312ACB166F6ED50015C1A2 /* Storyboard-iPhone.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		993DF83016720B5F005DE88B /* endpoint-mockup */ = {
+			isa = PBXGroup;
+			children = (
+				993DF83116720B5F005DE88B /* icaganet-server.rb */,
+				993DF83216720B5F005DE88B /* install-sinatra.txt */,
+				993DF83316720B5F005DE88B /* public */,
+				993DF83816720B5F005DE88B /* start-sinatra.sh */,
+			);
+			path = "endpoint-mockup";
+			sourceTree = "<group>";
+		};
+		993DF83316720B5F005DE88B /* public */ = {
+			isa = PBXGroup;
+			children = (
+				993DF83416720B5F005DE88B /* code.txt */,
+				993DF83516720B5F005DE88B /* img */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		993DF83516720B5F005DE88B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				993DF83616720B5F005DE88B /* 210px-Séville_-_Giralda.jpg */,
+				993DF83716720B5F005DE88B /* The_Giralda_Seville2C_Spain.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		99ADF05016709E5C006174C8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				99FC8A6F1670850900F2C046 /* VersionUtil.h */,
+				99FC8A701670850900F2C046 /* VersionUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		99ADF05116709E70006174C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				999E79DD16713225003F6E8C /* 192-credit-card.png */,
+				999E79DA167131EE003F6E8C /* 119-piggy-bank.png */,
+				99E8A25E1670A24900314F8A /* images */,
+				99FC8A6C167084B300F2C046 /* CaganetData.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99E8A25E1670A24900314F8A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				99E8A24C1670A23E00314F8A /* images-1.png */,
+				99E8A24E1670A23E00314F8A /* images-3.png */,
+				99E8A24F1670A23E00314F8A /* images-4.png */,
+				99E8A2501670A23E00314F8A /* images-5.png */,
+				99E8A2511670A23E00314F8A /* images-6.png */,
+				99E8A2521670A23E00314F8A /* images-7.png */,
+				99E8A24D1670A23E00314F8A /* images-2.png */,
+				99E8A2531670A23E00314F8A /* images-8.png */,
+				99E8A2541670A23E00314F8A /* images.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		99E8A26B1670A78E00314F8A /* PayPal */ = {
+			isa = PBXGroup;
+			children = (
+				99E8A26F1670A98800314F8A /* libPayPalMPL.a */,
+				99E8A2601670A78100314F8A /* PayPal.h */,
+				99E8A2611670A78100314F8A /* PayPalAddress.h */,
+				99E8A2621670A78100314F8A /* PayPalAdvancedPayment.h */,
+				99E8A2631670A78100314F8A /* PayPalAmounts.h */,
+				99E8A2641670A78100314F8A /* PayPalInvoiceData.h */,
+				99E8A2651670A78100314F8A /* PayPalInvoiceItem.h */,
+				99E8A2661670A78100314F8A /* PayPalPayment.h */,
+				99E8A2671670A78200314F8A /* PayPalPreapprovalDetails.h */,
+				99E8A2681670A78200314F8A /* PayPalReceiverAmounts.h */,
+				99E8A2691670A78200314F8A /* PayPalReceiverPaymentDetails.h */,
+			);
+			name = PayPal;
+			sourceTree = "<group>";
+		};
+		99FC8A7B1670857D00F2C046 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				996A7CA91670C63F004ACE15 /* SuccessViewController.h */,
+				996A7CAA1670C63F004ACE15 /* SuccessViewController.m */,
+				99FC8A781670853B00F2C046 /* ItemDetailViewController.h */,
+				99FC8A791670853B00F2C046 /* ItemDetailViewController.m */,
+				99FC8A751670852800F2C046 /* ItemListViewController.h */,
+				99FC8A761670852800F2C046 /* ItemListViewController.m */,
+				99FC8A721670851A00F2C046 /* AboutViewController.h */,
+				99FC8A731670851A00F2C046 /* AboutViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99312A88166F6CA20015C1A2 /* iCaganets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99312ABC166F6CA20015C1A2 /* Build configuration list for PBXNativeTarget "iCaganets" */;
+			buildPhases = (
+				99312A85166F6CA20015C1A2 /* Sources */,
+				99312A86166F6CA20015C1A2 /* Frameworks */,
+				99312A87166F6CA20015C1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCaganets;
+			productName = iCaganets;
+			productReference = 99312A89166F6CA20015C1A2 /* iCaganets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99312AA9166F6CA20015C1A2 /* iCaganetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99312ABF166F6CA20015C1A2 /* Build configuration list for PBXNativeTarget "iCaganetsTests" */;
+			buildPhases = (
+				99312AA5166F6CA20015C1A2 /* Sources */,
+				99312AA6166F6CA20015C1A2 /* Frameworks */,
+				99312AA7166F6CA20015C1A2 /* Resources */,
+				99312AA8166F6CA20015C1A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99312AB0166F6CA20015C1A2 /* PBXTargetDependency */,
+			);
+			name = iCaganetsTests;
+			productName = iCaganetsTests;
+			productReference = 99312AAA166F6CA20015C1A2 /* iCaganetsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99312A80166F6CA20015C1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diego Freniche Brito";
+			};
+			buildConfigurationList = 99312A83166F6CA20015C1A2 /* Build configuration list for PBXProject "iCaganets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99312A7E166F6CA20015C1A2;
+			productRefGroup = 99312A8A166F6CA20015C1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99312A88166F6CA20015C1A2 /* iCaganets */,
+				99312AA9166F6CA20015C1A2 /* iCaganetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99312A87166F6CA20015C1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99312A98166F6CA20015C1A2 /* InfoPlist.strings in Resources */,
+				99312AA0166F6CA20015C1A2 /* Default.png in Resources */,
+				99312AA2166F6CA20015C1A2 /* Default@2x.png in Resources */,
+				99312AA4166F6CA20015C1A2 /* Default-568h@2x.png in Resources */,
+				99312ACC166F6ED50015C1A2 /* Storyboard-iPhone.storyboard in Resources */,
+				99FC8A6D167084B300F2C046 /* CaganetData.plist in Resources */,
+				99E8A2551670A23E00314F8A /* images-1.png in Resources */,
+				99E8A2561670A23E00314F8A /* images-2.png in Resources */,
+				99E8A2571670A23E00314F8A /* images-3.png in Resources */,
+				99E8A2581670A23E00314F8A /* images-4.png in Resources */,
+				99E8A2591670A23E00314F8A /* images-5.png in Resources */,
+				99E8A25A1670A23E00314F8A /* images-6.png in Resources */,
+				99E8A25B1670A23E00314F8A /* images-7.png in Resources */,
+				99E8A25C1670A23E00314F8A /* images-8.png in Resources */,
+				99E8A25D1670A23E00314F8A /* images.png in Resources */,
+				999E79DB167131EE003F6E8C /* 119-piggy-bank.png in Resources */,
+				999E79DE16713225003F6E8C /* 192-credit-card.png in Resources */,
+				993DF83916720B5F005DE88B /* icaganet-server.rb in Resources */,
+				993DF83A16720B5F005DE88B /* install-sinatra.txt in Resources */,
+				993DF83B16720B5F005DE88B /* code.txt in Resources */,
+				993DF83C16720B5F005DE88B /* 210px-Séville_-_Giralda.jpg in Resources */,
+				993DF83D16720B5F005DE88B /* The_Giralda_Seville2C_Spain.jpg in Resources */,
+				993DF83E16720B5F005DE88B /* start-sinatra.sh in Resources */,
+				999CB5AB1672605500765834 /* README.TXT in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99312AA7166F6CA20015C1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99312AB6166F6CA20015C1A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99312AA8166F6CA20015C1A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99312A85166F6CA20015C1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E8A24B1670A10500314F8A /* VersionUtil.m in Sources */,
+				99ADF05316709F12006174C8 /* AboutViewController.m in Sources */,
+				99ADF05216709F0C006174C8 /* ItemListViewController.m in Sources */,
+				99312A9A166F6CA20015C1A2 /* main.m in Sources */,
+				99312A9E166F6CA20015C1A2 /* AppDelegate.m in Sources */,
+				99312AC4166F6D090015C1A2 /* ShopItem.m in Sources */,
+				99312AC9166F6EC40015C1A2 /* ItemList.m in Sources */,
+				99FC8A7A1670853B00F2C046 /* ItemDetailViewController.m in Sources */,
+				99ADF05616709F81006174C8 /* PoiCell.m in Sources */,
+				996A7CAB1670C640004ACE15 /* SuccessViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99312AA5166F6CA20015C1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99312AB9166F6CA20015C1A2 /* iCaganetsTests.m in Sources */,
+				99312AC5166F6D090015C1A2 /* ShopItem.m in Sources */,
+				99312ACA166F6EC40015C1A2 /* ItemList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99312AB0166F6CA20015C1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99312A88166F6CA20015C1A2 /* iCaganets */;
+			targetProxy = 99312AAF166F6CA20015C1A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99312A96166F6CA20015C1A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99312A97166F6CA20015C1A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99312AB4166F6CA20015C1A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99312AB5166F6CA20015C1A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99312ABA166F6CA20015C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99312ABB166F6CA20015C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99312ABD166F6CA20015C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaganets/iCaganets-Prefix.pch";
+				INFOPLIST_FILE = "iCaganets/iCaganets-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libs/PayPalMPL_1-6-0-iPhone_DevelopersPackage/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99312ABE166F6CA20015C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaganets/iCaganets-Prefix.pch";
+				INFOPLIST_FILE = "iCaganets/iCaganets-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libs/PayPalMPL_1-6-0-iPhone_DevelopersPackage/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99312AC0166F6CA20015C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCaganets.app/iCaganets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaganets/iCaganets-Prefix.pch";
+				INFOPLIST_FILE = "iCaganetsTests/iCaganetsTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iCaganets\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		99312AC1166F6CA20015C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCaganets.app/iCaganets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaganets/iCaganets-Prefix.pch";
+				INFOPLIST_FILE = "iCaganetsTests/iCaganetsTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iCaganets\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99312A83166F6CA20015C1A2 /* Build configuration list for PBXProject "iCaganets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99312ABA166F6CA20015C1A2 /* Debug */,
+				99312ABB166F6CA20015C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99312ABC166F6CA20015C1A2 /* Build configuration list for PBXNativeTarget "iCaganets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99312ABD166F6CA20015C1A2 /* Debug */,
+				99312ABE166F6CA20015C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99312ABF166F6CA20015C1A2 /* Build configuration list for PBXNativeTarget "iCaganetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99312AC0166F6CA20015C1A2 /* Debug */,
+				99312AC1166F6CA20015C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99312A80166F6CA20015C1A2 /* Project object */;
+}

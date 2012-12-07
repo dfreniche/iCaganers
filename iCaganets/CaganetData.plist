@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 1</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images.png</string>
+		<key>price</key>
+		<string>40</string>
+		<key>thumbImageName</key>
+		<string>images.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Gollum Caganet</string>
+		<key>shortDescription</key>
+		<string>My caganer precious!</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>50.00</string>
+		<key>thumbImageName</key>
+		<string>images-1.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>10.00</string>
+		<key>thumbImageName</key>
+		<string>images-2.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>5.00</string>
+		<key>thumbImageName</key>
+		<string>images-3.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>50.00</string>
+		<key>thumbImageName</key>
+		<string>images-4.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>80.00</string>
+		<key>thumbImageName</key>
+		<string>images-5.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>90.00</string>
+		<key>thumbImageName</key>
+		<string>images-6.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>100.00</string>
+		<key>thumbImageName</key>
+		<string>images-7.png</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Caganet 2</string>
+		<key>shortDescription</key>
+		<string>Loren ipsum caganer dolor sic amet</string>
+		<key>photo</key>
+		<string>images-1.png</string>
+		<key>price</key>
+		<string>15.00</string>
+		<key>thumbImageName</key>
+		<string>images-8.png</string>
+	</dict>
+</array>
+</plist>
