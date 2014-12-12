@@ -1,4 +1,4 @@
-iCaganets:
+#iCaganers:
 
 An example on an iOS App, showing a list of items to sell. You can select one item, and then pay with PayPal.
 Some highlights:
@@ -9,7 +9,8 @@ Some highlights:
 
 This project uses a local server that returns JSON (always the same values). This server is written using Ruby + Sinatra. See it in endpoint-mockup Group
 
-ALL THIS PROJECT'S LICENSE: MIT. PayPal Library (c) PayPal Inc.
+ALL THIS PROJECT'S LICENSE: MIT. 
+PayPal Library (c) PayPal Inc.
 
 
 
